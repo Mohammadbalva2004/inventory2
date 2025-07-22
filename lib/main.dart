@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Inventory Management',
       color: Colors.white,
+      themeMode: ThemeMode.system,
       theme: AppTheme.lightTheme,
       home: const DashboardScreen(),
       debugShowCheckedModeBanner: false,
