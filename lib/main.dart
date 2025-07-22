@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Inventory Management',
+      color: Colors.white,
       theme: AppTheme.lightTheme,
       home: const DashboardScreen(),
       debugShowCheckedModeBanner: false,
